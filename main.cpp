@@ -35,7 +35,7 @@ void printHelp() {
 
 auto main(int argc, const char *argv[]) -> int {
 
-  auto argp = ArgParser(argc, argv);
+  ArgParser argp = ArgParser(argc, argv);
 
   try {
     argp.parse();
